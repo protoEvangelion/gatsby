@@ -3,6 +3,7 @@
   "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
   "jsRules": {},
   "rules": {
+    "jsx-no-lambda": false,
     "interface-name": false,
     "semicolon": [true, "never"],
     "member-access": [false],
